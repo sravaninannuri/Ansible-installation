@@ -27,5 +27,5 @@ changes to be made and used ina configuration file which will processed in follw
 
 * ANSIBLE_CONFIG (AN ENVIRONMENT VARIABLE)
 *ansible.cfg (in the current directory)
-*ansible.cfg (in the home direwctory)
+*.ansible.cfg (in the home direwctory)
 */etc/ansible/ansible.cfg
