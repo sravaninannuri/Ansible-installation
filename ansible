@@ -14,4 +14,7 @@ ansible playbook is written in yaml format
 ---taks
 ---- handlers and notify
 
+ansible-playbook playbookname---------------to run ansible playbook
+
+
 
