@@ -1,0 +1,17 @@
+ansible-doc -l  ------------------to know all module
+ansible-doc -l | wc -l
+ansible-doc yum ------------------------to get help
+ansible-doc logrotate
+ansibie server2 -m yum -a " name=httpd state=installed"-------------adhoc commands
+ansibie server2 -k -m yum -a " name=httpd state=installed"
+we will find ansible in /etc/ansible
+it has ansible.cfg roles hosts
+export ANSIBLE_HOST_KEY_CHECKING=false
+
+ansible playbook is written in yaml format
+-----setup
+---variables
+---taks
+---- handlers and notify
+
+
